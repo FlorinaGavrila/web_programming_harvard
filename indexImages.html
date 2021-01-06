@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="https://www.google.com/images">
-        <input type="text" name="q">
-        <input type="submit" value="Search img">
-    </form>
+
+    <div class="flex_container">
+        <img src="images/google.png" alt="Google" width="320px">
+        <div class="logotext">
+            <p>Images</p>
+        </div>
+
+        <form action="https://www.google.com/images">
+            <input type="text" class="text-input searchImages" name="q">
+            <input type="hidden" value="Search img">
+        </form>
+    </div>
 
 </body>
 

@@ -13,7 +13,6 @@ body {
     align-items: center;
     margin-top: 250px;
     flex-wrap: wrap;
-    border: 2px solid black;
 }
 
 
@@ -58,29 +57,46 @@ body {
     border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
 }
 
-.felling {
+.button-felling {
     padding: 10px 20px 10px 20px;
     background-color: gainsboro;
     font-size: 16px;
     border: none;
+    margin-left: 190px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+    font-family: arial, sans-serif;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    margin-left: 190px;
-    text-align: center;
-    background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
     transform: translateY(-106%);
     -webkit-transform: translateY(-106%);
     -moz-transform: translateY(-106%);
     -ms-transform: translateY(-106%);
     -o-transform: translateY(-106%);
-    font-family: arial, sans-serif;
 }
 
 .felling:hover {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+
+/* Google images style */
+
+.searchImages {
+    margin: -20px;
+}
+
+.logotext {
+    position: relative;
+    bottom: 38px;
+    left: 125px;
+    color: #4285f4;
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: roboto-regular, arial, sans-serif;
 }
