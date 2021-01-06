@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Programming</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <img src="images/google.png" alt="Google">
+    <div class="flex_container">
+        <img src="images/google.png" alt="Google" width="320px">
 
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Search">
-    </form>
+        <form action="https://google.com/search">
+            <input type="text" class="text-input" name="q">
+            <input type="submit" class="button-submit" value="Google Search">
+        </form>
+
+        <form action="https://google.com/search">
+            <input type="hidden" name="btnI" value="I'm Feeling Lucky">
+            <input type="submit" class="felling" value="I'm Feeling Lucky">
+        </form>
+
+    </div>
 
 </body>
 
