@@ -5,36 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Advanced Search</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="advanced.css">
 </head>
 
 <body>
+
+    <div class="redTitle">
+        <span>Advanced Search</span>
+    </div>
+
+    <div class="line"></div>
+
     <div class="searchLinks">
         <a href="index.html">Google Search</a>
     </div>
 
-    <p>Find pages with...</p>
+    <div id="advancedSearch">
+        <div class="title">
+            <span> Find pages with...</span>
+        </div>
 
-    <form action="https://www.google.com/search">
-        <label for="allwords">all these words:</label>
-        <input type="text" id="allwords" name="as_q">
-    </form>
+        <form action="https://www.google.com/search">
 
-    <form action="https://www.google.com/search">
-        <label for="phrase">this exact word or phrase:</label>
-        <input type="text" id="phrase" name="as_epq">
-    </form>
+            <label class="advancedWords" for="allwords">all these words:</label>
+            <input class="advancedInput" type="text" id="allwords" name="as_q"><br>
+            <label class="advancedWords" for="phrase">this exact word or phrase:</label>
+            <input class="advancedInput" type="text" id="phrase" name="as_epq"><br>
+            <label class="advancedWords" for="any">any of these words:</label>
+            <input class="advancedInput" type="text" id="any" name="as_oq"><br>
+            <label class="advancedWords" for="none">none of these words:</label>
+            <input class="advancedInput" type="text" id="none" name="as_eq"><br>
+            <input id="advancedBtn" type="submit" value="Advanced search">
+        </form>
 
-    <form action="https://www.google.com/search">
-        <label for="any">any of these words:</label>
-        <input type="text" id="any" name="as_oq">
-    </form>
+    </div>
 
-    <form action="https://www.google.com/search">
-        <label for="none">none of these words:</label>
-        <input type="text" id="none" name="as_eq">
-    </form>
+    <!-- <span>Put exact words in quotes:   "rat terrier"</span>
+         <span>Type OR between all the words you want:   miniature OR standard</span>
+        <span>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</span> -->
+    <!-- https://www.google.com/search?as_q=abc&as_epq=def&as_oq=qew&as_eq=rty -->
 
 </body>
+
 
 </html>
