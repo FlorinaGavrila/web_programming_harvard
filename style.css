@@ -126,3 +126,18 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+
+/* Style svg images for text input */
+
+.magnifier img {
+    position: relative;
+    bottom: 145px;
+    right: 300px;
+}
+
+.microphone {
+    position: relative;
+    bottom: 184px;
+    left: 300px;
+}

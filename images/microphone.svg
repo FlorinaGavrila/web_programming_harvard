@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>micro2</title>
+    <g id="micro2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="5.51239669" y1="15" x2="5.51239669" y2="17" id="Line" stroke="#278A3A" stroke-width="1.4" stroke-linecap="square"></line>
+        <path d="M10.0909091,9.5 C10.0909091,12.2614237 8.05583977,14.5 5.54545455,14.5 C3.03506932,14.5 1,12.2614237 1,9.5" id="Path" stroke="#D92928" stroke-width="1.4"></path>
+        <path d="M2.81818182,13.5 C2.58316188,13.3005821 2.36608256,13.0786299 2.16989798,12.8372569 C1.4405597,11.9399256 1,10.7741854 1,9.5" id="Path" stroke="#EEA90D" stroke-width="1.4"></path>
+        <line x1="5.5" y1="4.5" x2="5.51239669" y2="10" id="Line-2" stroke="#4285F4" stroke-width="3.8" stroke-linecap="round"></line>
+    </g>
+</svg>

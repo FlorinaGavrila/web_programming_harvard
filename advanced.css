@@ -9,8 +9,9 @@ body {
 
 .redTitle {
     color: #d93025;
-    font-weight: bolder;
-    font-size: 24px;
+    font-weight: lighter;
+    font-family: arial, sans-serif;
+    font-size: 22px;
     margin: 20px 0px 15px 20px;
     margin-bottom: 15px;
 }
