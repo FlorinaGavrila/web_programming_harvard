@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>camera_v1</title>
+    <g id="camera_v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15,0 C16.6568542,-3.04359188e-16 18,1.34314575 18,3 L20,3 C22.209139,3 24,4.790861 24,7 L24,16 C24,18.209139 22.209139,20 20,20 L4,20 C1.790861,20 2.705415e-16,18.209139 0,16 L0,7 C-2.705415e-16,4.790861 1.790861,3 4,3 L6,3 C6,1.34314575 7.34314575,3.04359188e-16 9,0 L15,0 Z" id="Combined-Shape" fill="#626262"></path>
+        <circle id="Oval" stroke="#FFFFFF" stroke-width="1.5" cx="12" cy="11" r="5.25"></circle>
+    </g>
+</svg>
